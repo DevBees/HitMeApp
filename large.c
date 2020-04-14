@@ -11,6 +11,6 @@ int main() {
 }
 
 int max_of_four(w,x,y,z){
-    int t= w>x? w>y? w>z? w:z : y>z? y:z : x>y? x>z? x:z : y;
-    return t;
+    int l= w>x? w>y? w>z? w:z : y>z? y:z : x>y? x>z? x:z : y;
+    return l;
 }

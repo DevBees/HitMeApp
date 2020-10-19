@@ -36,6 +36,7 @@ while(mov<total){
 
 else{
   printf("THE RAT CANNOT REACH ITS DESTINATION");
+  break;
   }
 }
 

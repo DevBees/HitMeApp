@@ -2,5 +2,5 @@
 
 int main () {
 	printf("Hello world\n");
-	printf("Welcome to %dth Floor!\n", 27);
+	printf("Welcome to %dth Floor!\n", 27); //27th floor 
 }

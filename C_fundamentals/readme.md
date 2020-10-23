@@ -1,1 +1,1 @@
-Learn C the hard way
+Learn C fundamentals the hard way

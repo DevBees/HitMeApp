@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<malloc.h>
+
+struct node 
+{ 
+    int data; 
+    struct node* lc, *rc; 
+}; 
+  
+int getnode(){
+  int item;
+  struct node *ptr;
+  ptr=(struct node *)malloc (sizeof (struct node));
+  printf("Enter value: ");
+  scanf("%d",&item);
+  ptr -> data=item;
+  ptr -> lc=NULL;
+  ptr -> rc=NULL;
+  return ptr;
+}
+
+void buildtree(ptr){
+  char option;
+  printf("Do you want left child(Y/N): ");
+  scanf("%c", &option);
+  if(option=Y){
+    new=
+  }
+}

@@ -16,12 +16,17 @@ function Sidebar() {
         <Avatar/>
 
         <div className="sidebar__headerRight">
-        <IconButton>
-         
+        
+        <IconButton>    
         <DonutLargeIcon />
-        <ChatIcon/>
-        <MoreVertIcon/>
+        </IconButton>
 
+        <IconButton>
+        <ChatIcon/>
+        </IconButton>
+        
+        <IconButton>
+        <MoreVertIcon/>
         </IconButton>
 
 

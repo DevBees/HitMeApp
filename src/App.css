@@ -1,5 +1,5 @@
 .App{
-  background-image: linear-gradient(rgb(54, 151, 241),#f10d0d);
+  background-image: linear-gradient(#1565C0,#b92b27);
   display: grid;
   place-items: center;
   height: 110vh;

@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
 
-    <img alt= "logo" src="hitmeapplogo.png" width = "4%" />
+    <img alt= "logo" src="hitmeapplogo.svg" width = "70px" />
+
+    <h2 className="app__header">HitMeApp</h2>
 
     <div className="app__body">
 

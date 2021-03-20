@@ -1,22 +1,22 @@
 .App{
-  background-color: rgb(92, 166, 235);
+  background-image: linear-gradient(rgb(54, 151, 241),#f10d0d);
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: 110vh;
 }
-
 .app__body{
   display: flex;
   height: 90vh;
-  width: 60%;
+  width: 55%;
   background-color: #ededed;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.6);
 }
 
 .app__header{
-  color: rgb(4, 71, 194);
+  color: rgb(236, 8, 57);
   font-weight: bold;
   font-size: 30px;
+  font-family: velvetica;
   padding: 3px;
   justify-content: center;
 }

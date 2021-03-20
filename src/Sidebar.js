@@ -54,8 +54,6 @@ function Sidebar() {
         <div className="sidebar__chat">
 
         <SidebarChat/>
-        <h1> chat </h1>
-        <h1>chat</h1>
 
 
         </div>

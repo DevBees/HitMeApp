@@ -1,5 +1,5 @@
 .App{
-  background-image: linear-gradient(#1565C0,#b92b27);
+  background-image: linear-gradient(#0575e6,#00f260);
   display: grid;
   place-items: center;
   height: 110vh;
@@ -13,7 +13,7 @@
 }
 
 .app__header{
-  color: rgb(236, 8, 57);
+  color: rgb(2, 234, 241);
   font-weight: bold;
   font-size: 30px;
   font-family: cursive;

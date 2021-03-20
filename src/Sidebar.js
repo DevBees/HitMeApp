@@ -14,7 +14,10 @@ function Sidebar() {
 
         <div className="sidebar__header">
 
+        
+        <IconButton>
         <Avatar/>
+        </IconButton>
 
         <div className="sidebar__headerRight">
 
@@ -37,8 +40,12 @@ function Sidebar() {
 
         <div className="sidebar__search">
 
+
+        <div className="sidebar__SearchContainer">
         <SearchOutlined/>
         <input placeholder="Search or start new chat" type="text" />
+
+        </div>
 
 
         </div>

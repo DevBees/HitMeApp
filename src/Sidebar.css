@@ -1,6 +1,7 @@
 
 .sidebar{
     flex: 0.33;
+    display: flex;
 }
 
 .sidebar__header{

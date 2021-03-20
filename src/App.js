@@ -1,13 +1,12 @@
 
 import './App.css';
-import './hitmeapplogo.png';
 import Sidebar from './Sidebar';
 
 function App() {
   return (
     <div className="App">
 
-    <img alt= "logo" src="src/hitmeapplogo.svg" />
+    <img alt= "logo" src="hitmeapplogo.png" width = "4%" />
 
     <div className="app__body">
 

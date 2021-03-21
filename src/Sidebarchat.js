@@ -14,7 +14,11 @@ useEffect(() => {
 },);
 
 const createChat = () => {
+    const roomName = prompt('Enter room name for the chat');
 
+    if (roomName) {
+        //to do
+    }
 };
 
     return !addnewChat ? (

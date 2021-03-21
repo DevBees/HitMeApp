@@ -56,5 +56,7 @@ margin-left: 10px;
 }
 
 .sidebar__chat{
-    background-color:blue;
+    flex: 1;
+    background-image: linear-gradient(#00d2ff,#F9D423);
+    overflow: scroll;
 }

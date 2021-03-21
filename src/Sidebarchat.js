@@ -36,7 +36,7 @@ const createChat = () => {
     ) : (
         <div onClick={createChat}
         className="sidebarChat__addChat">
-            <h2 styles= "font-size: 8px" >Add new chat</h2>
+            <h2 styles= "font-size: 8px; align: center; margin-left: 40px;" >Add new chat</h2>
             <AddIcon className="addchaticon"/>
 
             

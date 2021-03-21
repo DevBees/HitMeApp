@@ -22,7 +22,13 @@ function Chat() {
         <div className="chat__headerInfo">
 
             <h3>Room name</h3>
+            <p>last seen an hr ago</p>
 
+        </div>
+
+        <div className="chat__headerRight">
+
+            
         </div>
 
         </div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Sidebarchat.css';
 import { Avatar } from '@material-ui/core';
 import {useEffect} from 'react';
+import AddIcon from '@material-ui/icons/Add';
 
 function Sidebarchat({addnewChat}) {
 
@@ -34,8 +35,11 @@ const createChat = () => {
         </div>
     ) : (
         <div onClick={createChat}
-        className="sidebarChat">
-            <h2>Add new chat</h2>
+        className="sidebarChat__addChat">
+            <h2 styles= "font-size: 8px" >Add new chat</h2>
+            <AddIcon className="addchaticon"/>
+
+            
         </div>
 
     );

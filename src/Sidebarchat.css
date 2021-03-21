@@ -7,5 +7,14 @@
 
 .sidebarChat:hover{
     background-image: linear-gradient(#FF4E50,#F9D423);
+}
 
+.sidebarChat__info > h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+
+.sidebarChat__info{
+    margin-left: 15px;
 }

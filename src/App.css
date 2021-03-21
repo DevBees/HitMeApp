@@ -2,21 +2,25 @@
   background-image: linear-gradient(#0575e6,#00f260);
   display: grid;
   place-items: center;
-  height: 110vh;
+  height: 100%;
 }
 .app__body{
   display: flex;
   height: 90vh;
-  width: 55%;
+  width: 80%;
   background-color: #ededed;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.6);
 }
 
 .app__header{
-  color: rgb(2, 234, 241);
+  color: rgb(240, 14, 14);
   font-weight: bold;
   font-size: 30px;
   font-family: cursive;
-  padding: 3px;
-  justify-content: center;
+  padding: 6px;
+}
+
+.app__nameandLogo{
+  display: flex;
+  padding: 0px;
 }

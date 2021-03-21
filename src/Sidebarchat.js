@@ -25,9 +25,10 @@ const createChat = () => {
     return !addnewChat ? (
         <div className="sidebarChat">
         <Avatar src= {`https://avatars.dicebear.com/api/human/${seed}.svg`}/>
+
         <div className="sidebarChat__info">
 
-            <h2> Room name</h2>
+            <h2>Room name</h2>
             <p>Last message</p>
 
         </div>
@@ -36,7 +37,7 @@ const createChat = () => {
     ) : (
         <div onClick={createChat}
         className="sidebarChat__addChat">
-            <h2 styles= "font-size: 8px; align: center; margin-left: 40px;" >Add new chat</h2>
+            <h2>Add new chat</h2>
             <AddIcon className="addchaticon"/>
 
             
@@ -46,5 +47,3 @@ const createChat = () => {
 }
 
 export default Sidebarchat
-
-

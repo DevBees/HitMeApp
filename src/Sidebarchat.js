@@ -6,13 +6,13 @@ import AddIcon from '@material-ui/icons/Add';
 
 function Sidebarchat({addnewChat}) {
 
-    const [seed,setSeed] = new useState('');
+    const [seed,setSeed] = useState("");
 
 useEffect(() => {
 
     setSeed(Math.floor(Math.random() * 5000));
 
-},);
+},[]);
 
 const createChat = () => {
     const roomName = prompt('Enter room name for the chat');

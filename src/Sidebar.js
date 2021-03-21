@@ -53,7 +53,7 @@ function Sidebar() {
 
         <div className="sidebar__chat">
 
-        <SidebarChat/>
+        <SidebarChat addnewChat />
         <SidebarChat/>
         <SidebarChat/>
         <SidebarChat/>

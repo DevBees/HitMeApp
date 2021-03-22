@@ -1,6 +1,8 @@
 .chat{
     flex: 0.75;
     background-image: linear-gradient(#1FA2FF,#12D8FA,#A6FFCB);
+    display: flex;
+    flex-direction: column;
 }
 
 .chat__header{
@@ -27,4 +29,12 @@
 .chat__headerRight{
     justify-content: space-between;
     min-width: 90px;
+}
+
+.chat__body{
+    flex: 1;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
 }

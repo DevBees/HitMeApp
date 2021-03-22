@@ -38,3 +38,13 @@
     padding: 30px;
     overflow: scroll;
 }
+
+.chat__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 25px;
+}

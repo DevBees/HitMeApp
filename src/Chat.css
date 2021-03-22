@@ -43,10 +43,15 @@
     position: relative;
     font-size: 16px;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(250, 244, 244);
     border-radius: 10px;
     width: fit-content;
     margin-bottom: 34px;
+}
+
+.chat__receiver{
+    margin-left: auto;
+    background-image: linear-gradient(#ED4264,#FFEDBC);
 }
 
 .chat__name{

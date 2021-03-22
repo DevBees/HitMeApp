@@ -23,3 +23,8 @@
 .chat__headerInfo > p{
     color: rgb(24, 22, 22);
 }
+
+.chat__headerRight{
+    justify-content: space-between;
+    min-width: 90px;
+}

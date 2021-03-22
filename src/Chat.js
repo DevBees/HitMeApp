@@ -50,13 +50,15 @@ function Chat() {
         <div className="chat__body">
 
             <p className="chat__message">
+               <span className="chat__name">Govind</span>
                 Hey guys
-                <span className="chat__name">Govind</span>
+                <span className="chat__timestamp">2:19pm</span>
             </p>
 
             <p className="chat__message">
-                Hey guys
                 <span className="chat__name">Govind</span>
+                Howsit goin'
+                <span className="chat__timestamp">2:20pm</span>
             </p>
 
         </div>

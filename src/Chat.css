@@ -46,5 +46,17 @@
     background-color: white;
     border-radius: 10px;
     width: fit-content;
-    margin-bottom: 25px;
+    margin-bottom: 34px;
+}
+
+.chat__name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.chat__timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
 }

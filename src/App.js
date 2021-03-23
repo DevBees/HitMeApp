@@ -2,6 +2,7 @@
 import './App.css';
 import Sidebar from './Sidebar';
 import Chat from './Chat';
+import { Router } from 'react-router';
 
 function App() {
   return (
@@ -15,8 +16,12 @@ function App() {
 
     <div className="app__body">
 
+    <Router>
+
     <Sidebar />
     <Chat/>
+
+    </Router>
 
     </div>
       

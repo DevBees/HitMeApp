@@ -3,6 +3,7 @@ import './App.css';
 import Sidebar from './Sidebar';
 import Chat from './Chat';
 import { Router } from 'react-router';
+import { Switch } from '@material-ui/core';
 
 function App() {
   return (
@@ -18,8 +19,12 @@ function App() {
 
     <Router>
 
+    <Switch>
+
     <Sidebar />
     <Chat/>
+
+    </Switch>
 
     </Router>
 

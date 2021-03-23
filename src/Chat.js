@@ -7,12 +7,17 @@ import './Chat.css';
 function Chat() {
 
     const [seed,setSeed] = useState("");
+    const [input,setInput] = useState("");
 
     useEffect(() => {
 
         setSeed(Math.floor(Math.random() * 5000));
     
     },[]);
+
+    const sendMessage = (e) => {
+
+    }
 
     return (
         <div className="chat">
@@ -69,8 +74,10 @@ function Chat() {
        <InsertEmoticon/>
 
        <form>
-           <input type="text" placeholder="Type your message..." />
-           <button type="submit">Send a message</button>
+           <input value="input" type="text" placeholder="Type your message..." />
+
+            <button className="sendButton" onClick={sendMessage} type="submit"></button>
+
        </form>
        
        <Mic/>

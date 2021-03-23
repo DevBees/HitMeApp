@@ -69,7 +69,7 @@ function Chat() {
        <InsertEmoticon/>
 
        <form>
-           <input type="text" />
+           <input type="text" placeholder="Type your message..." />
            <button>Send a message</button>
        </form>
        

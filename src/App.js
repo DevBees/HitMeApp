@@ -2,8 +2,7 @@
 import './App.css';
 import Sidebar from './Sidebar';
 import Chat from './Chat';
-import { Router } from 'react-router';
-import { Switch } from '@material-ui/core';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -21,8 +20,16 @@ function App() {
 
     <Switch>
 
+    <Route path="/app">
     <Sidebar />
     <Chat/>
+    </Route>
+
+
+    <Route path="/">
+      <h1>Home</h1>
+    </Route>
+
 
     </Switch>
 

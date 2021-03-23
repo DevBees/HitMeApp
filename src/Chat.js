@@ -70,7 +70,7 @@ function Chat() {
 
        <form>
            <input type="text" placeholder="Type your message..." />
-           <button>Send a message</button>
+           <button type="submit">Send a message</button>
        </form>
        
        <Mic/>

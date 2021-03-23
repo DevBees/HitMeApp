@@ -3,6 +3,7 @@ import './Sidebarchat.css';
 import { Avatar } from '@material-ui/core';
 import {useEffect} from 'react';
 import AddCircleIcon from '@material-ui/icons/AddCircle';
+import db from './firebase';
 
 function Sidebarchat({ id, name, addnewChat}) {
 
@@ -19,6 +20,10 @@ const createChat = () => {
 
     if (roomName) {
         //to do
+        db.collection("rooms").add({
+            name: roomName,
+
+        });
     }
 };
 

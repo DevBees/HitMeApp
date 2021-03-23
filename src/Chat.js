@@ -16,6 +16,9 @@ function Chat() {
     },[]);
 
     const sendMessage = (e) => {
+        e.preventDefault();
+
+        setInput("");
 
     }
 
@@ -74,7 +77,7 @@ function Chat() {
        <InsertEmoticon/>
 
        <form>
-           <input value="input" type="text" placeholder="Type your message..." />
+           <input value= {input} onChange={e => setInput(e.target.value)} type="text" placeholder="Type your message..." />
 
             <button className="sendButton" onClick={sendMessage} type="submit"></button>
 

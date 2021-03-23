@@ -68,10 +68,10 @@ function Chat() {
 
        <InsertEmoticon/>
 
-       <forms>
+       <form>
            <input type="text" />
            <button>Send a message</button>
-       </forms>
+       </form>
        
        <Mic/>
 

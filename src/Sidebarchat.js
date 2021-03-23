@@ -4,7 +4,7 @@ import { Avatar } from '@material-ui/core';
 import {useEffect} from 'react';
 import AddCircleIcon from '@material-ui/icons/AddCircle';
 
-function Sidebarchat({addnewChat}) {
+function Sidebarchat({ id, name, addnewChat}) {
 
     const [seed,setSeed] = useState("");
 
@@ -28,8 +28,8 @@ const createChat = () => {
 
         <div className="sidebarChat__info">
 
-            <h2>Room name</h2>
-            <p>Last message</p>
+            <h2>{name}</h2>
+            <p></p>
 
         </div>
             

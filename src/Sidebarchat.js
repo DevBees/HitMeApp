@@ -4,6 +4,7 @@ import { Avatar } from '@material-ui/core';
 import {useEffect} from 'react';
 import AddCircleIcon from '@material-ui/icons/AddCircle';
 import db from './firebase';
+import {Link} from "react-router-dom";
 
 function Sidebarchat({ id, name, addnewChat}) {
 
@@ -28,7 +29,9 @@ const createChat = () => {
 };
 
     return !addnewChat ? (
-        <div className="sidebarChat">
+        <Link to={`/rooms/${id}`}>
+
+<div className="sidebarChat">
         <Avatar src= {`https://avatars.dicebear.com/api/human/${seed}.svg`}/>
 
         <div className="sidebarChat__info">
@@ -39,6 +42,9 @@ const createChat = () => {
         </div>
             
         </div>
+
+        </Link>
+        
     ) : (
         <div onClick={createChat}
         className="sidebarChat__addChat">

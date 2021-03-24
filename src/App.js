@@ -10,6 +10,7 @@ function App() {
 
     <div className="app__nameandLogo">
     <h2 className="app__header">HitMeApp</h2>
+
      <img alt= "logo" src="hitmeapplogo.svg" width = "40px" />
     </div>
 
@@ -20,15 +21,22 @@ function App() {
 
     <Switch>
 
-    <Route path="/app">
     <Sidebar />
+
+    <Route path="/app">
     <Chat/>
     </Route>
 
 
-    <Route path="/">
-      <h1>Home</h1>
+    <Route path="/rooms/:roomId">
+      <Chat/>
     </Route>
+
+    <Route path="/"> 
+
+    <Chat/>
+    
+     </Route>
 
 
     </Switch>

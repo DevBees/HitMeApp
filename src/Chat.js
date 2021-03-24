@@ -2,12 +2,14 @@ import { Avatar, IconButton} from '@material-ui/core';
 import { AttachFile, InsertEmoticon, SearchOutlined, Mic } from '@material-ui/icons';
 import MoreVert from '@material-ui/icons/MoreVert';
 import React, { useState, useEffect } from 'react';
+import {useParams} from "react-router-dom";
 import './Chat.css';
 
 function Chat() {
 
     const [seed,setSeed] = useState("");
     const [input,setInput] = useState("");
+    const {roomId} = useParams();
 
     useEffect(() => {
 

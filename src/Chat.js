@@ -4,12 +4,23 @@ import MoreVert from '@material-ui/icons/MoreVert';
 import React, { useState, useEffect } from 'react';
 import {useParams} from "react-router-dom";
 import './Chat.css';
+import db from './firebase';
 
 function Chat() {
 
     const [seed,setSeed] = useState("");
     const [input,setInput] = useState("");
-    const {roomId} = useParams();
+    const { roomId } = useParams();
+    const [roomName, setRoomName] = useState("");
+
+    useEffect(() => {
+        if(roomId) {
+            db.collection("rooms")
+            .doc(roomId)
+            .onSnapshot((snapshot) => setRoomName
+            (snapshot.data().name));
+        }
+    },[roomId, setRoomName]);
 
     useEffect(() => {
 
@@ -33,7 +44,7 @@ function Chat() {
 
         <div className="chat__headerInfo">
 
-            <h3>Room name</h3>
+            <h3>{roomName}</h3>
             <p>last seen an hr ago</p>
 
         </div>

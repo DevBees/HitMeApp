@@ -19,9 +19,10 @@ function App() {
 
     <Router>
 
-    <Switch>
 
     <Sidebar />
+
+    <Switch>
 
     <Route path="/app">
     <Chat/>

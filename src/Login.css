@@ -21,3 +21,12 @@
     height: 100px;
     margin-bottom: 20px;
 }
+
+.login__container > button{
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #0575e6 !important;
+    color: white;
+    border-radius: 8px;
+    
+}

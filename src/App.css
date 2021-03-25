@@ -3,6 +3,7 @@
   display: grid;
   place-items: center;
   height: 100%;
+  padding: 20px;
 }
 .app__body{
   display: flex;

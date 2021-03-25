@@ -7,6 +7,10 @@
 
 }
 
+.login__text {
+    color: black;
+}
+
 .login__container{
     padding: 100px;
     text-align: center;

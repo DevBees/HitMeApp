@@ -51,7 +51,7 @@
 
 .chat__receiver{
     margin-left: auto;
-    background-image: linear-gradient(#ED4264,#FFEDBC);
+    background-image: linear-gradient(rgb(30, 172, 30),white);
 }
 
 .chat__name{

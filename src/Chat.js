@@ -115,8 +115,9 @@ function Chat() {
 
 
         <div className="chat__footer">
-
-       <InsertEmoticon/>
+        <IconButton>
+        <InsertEmoticon/>
+        </IconButton>
 
        <form>
            <input value= {input} onChange={e => setInput(e.target.value)} type="text" placeholder="Type your message..." />
@@ -124,8 +125,10 @@ function Chat() {
             <button className="sendButton" onClick={sendMessage} type="submit"></button>
 
        </form>
-       
+
+       <IconButton>
        <Mic/>
+        </IconButton>
 
 
         </div>

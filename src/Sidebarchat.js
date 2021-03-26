@@ -36,8 +36,8 @@ const createChat = () => {
 
         <div className="sidebarChat__info">
 
-            <h2>{name}</h2>
-            <p></p>
+            <h2 className="sidebarChat__heading">{name}</h2>
+            <p>Last message</p>
 
         </div>
             

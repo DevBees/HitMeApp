@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '@material-ui/core';
 import './Login.css';
 import { auth, provider } from './firebase';
+import Google from "./google.png";
 import {actionTypes} from './reducer';
 import {useStateValue} from './StateProvider';
 
@@ -32,8 +33,12 @@ function Login() {
         <h1>Sign in to HitMeApp</h1>
         </div>
 
-            <Button onClick={signIn}>
+            <Button className="login__btn" onClick={signIn}>
+
+            <img width="30px" alt="error" className="login__imggoogle" src={Google} />
+
                 Sign in with Google
+
             </Button>
 
 

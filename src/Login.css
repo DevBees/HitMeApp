@@ -9,6 +9,7 @@
 
 .login__text {
     color: black;
+    padding-bottom: 20px;
 }
 
 .login__container{
@@ -23,14 +24,25 @@
 .login__container > img{
     object-fit: contain;
     height: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.login__container > button{
-    margin-top: 50px;
+.login__btn{
+    margin-top: 90px;
     text-transform: inherit !important;
-    background-color: #0575e6 !important;
-    color: white;
-    border-radius: 8px;
+    background:  #5b618b !important;
+    color: white !important;
+    border-radius: 15px !important;
+    justify-content: flex;
+    font-size: 12px;
+
+}
+
+.login__btn:hover{
+    background: #232F41 !important;
     
+}
+
+.login__imggoogle{
+    padding: 5px;
 }

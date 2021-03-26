@@ -1,6 +1,7 @@
 .sidebarChat{
     display: flex;
-    padding: 3%;
+    padding: 20px;
+    cursor: pointer;
     border-bottom: 1px solid #f6f6f6;
 }
 
@@ -8,17 +9,19 @@
     background-image: linear-gradient(#FF4E50,#F9D423);
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .sidebarChat__heading{
-    font-size: 140%;
+    font-size: 22px;
     margin-bottom: 8px;
-    text-decoration: none !important;
-    font-weight: bold !important;
-    color: rgb(22, 79, 238);
 
 }
 
 .sidebarChat__info{
-    margin-left: 4%;
+    margin-left: 15px;
 }
 
 .sidebarChat__addChat{

@@ -28,7 +28,7 @@
 
 .chat__headerRight{
     justify-content: space-between;
-    min-width: 90px;
+    min-width: 60px;
 }
 
 .chat__body{

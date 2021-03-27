@@ -26,7 +26,7 @@ a{
 
 .sidebarChat__addChat{
     display: flex;
-    padding: 5%;
+    padding: 10px;
     cursor: pointer;
     border-bottom: 1px solid #f6f6f6;
     justify-content: center;

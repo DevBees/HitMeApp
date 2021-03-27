@@ -29,7 +29,7 @@ useEffect(() =>{
                 doc.data()))
             ))
         }
-},[])
+},[id]);
 
 const createChat = () => {
     const roomName = prompt('Enter room name for the chat');

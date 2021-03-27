@@ -1,7 +1,8 @@
 # HitMeApp
 
+<img src="screenshots/hitmeapplogin.PNG">
 <img src="screenshots/hitmeappmsgs.PNG">
-<img src="screenshots/hitmeapplogin.PNG"
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
